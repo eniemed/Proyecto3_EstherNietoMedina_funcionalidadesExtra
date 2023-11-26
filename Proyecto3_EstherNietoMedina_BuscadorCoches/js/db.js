@@ -1,0 +1,211 @@
+const coches = [
+	{
+		marca: 'BMW',
+		modelo: 'Serie 3',
+		year: 2020,
+		precio: 30000,
+		puertas: 4,
+		color: 'Blanco',
+		transmision: 'automatico',
+		img: "resources/bmw3blanco2020.png",
+		id: 1
+	},
+	{ 
+        marca: 'Audi', 
+        modelo: 'A4', 
+        year: 2020, 
+        precio: 40000, 
+        puertas: 4, 
+        color: 'Negro', 
+        transmision: 'automatico',
+		img: "resources/audia4negro.png",
+		id: 2
+    },
+	{
+		marca: 'Ford',
+		modelo: 'Mustang',
+		year: 2015,
+		precio: 20000,
+		puertas: 2,
+		color: 'Blanco',
+		transmision: 'automatico',
+		img: "resources/mustangblanco.png",
+		id: 3
+	},
+	{ 
+        marca: 'Audi', 
+        modelo: 'A6', 
+        year: 2020, 
+        precio: 35000, 
+        puertas: 4, 
+        color: 'Negro', 
+        transmision: 'automatico',
+		img: "resources/audia6negro.png",
+		id: 4
+    },
+	{
+		marca: 'BMW',
+		modelo: 'Serie 5',
+		year: 2016,
+		precio: 70000,
+		puertas: 4,
+		color: 'Rojo',
+		transmision: 'automatico',
+		img: "resources/bmw5rojo.png",
+		id: 5
+	},
+	{
+		marca: 'Mercedes Benz',
+		modelo: 'Clase C',
+		year: 2015,
+		precio: 25000,
+		puertas: 4,
+		color: 'Blanco',
+		transmision: 'automatico',
+		img: "resources/mercedesCblanco.png",
+		id: 6
+	},
+	{
+		marca: 'Chevrolet',
+		modelo: 'Camaro',
+		year: 2018,
+		precio: 60000,
+		puertas: 2,
+		color: 'Rojo',
+		transmision: 'manual',
+		img: "resources/chevroletCamaroRojo.png",
+		id: 7
+	},
+	{ 
+        marca: 'Ford', 
+        modelo: 'Mustang', 
+        year: 2019, 
+        precio: 80000, 
+        puertas: 2, 
+        color: 'Rojo', 
+        transmision: 'manual',
+		img: "resources/mustangRojo2019.png",
+		id: 8
+    },
+	{
+		marca: 'Dodge',
+		modelo: 'Challenger',
+		year: 2020,
+		precio: 40000,
+		puertas: 4,
+		color: 'Blanco',
+		transmision: 'automatico',
+		img: "resources/dodgeChallenger.png",
+		id: 9
+	},
+	{ 
+        marca: 'Audi', 
+        modelo: 'A3', 
+        year: 2017, 
+        precio: 55000, 
+        puertas: 2, 
+        color: 'Negro', 
+        transmision: 'manual',
+		img: "resources/audia3negro.png",
+		id: 10
+    },
+	{
+		marca: 'Dodge',
+		modelo: 'Challenger',
+		year: 2020,
+		precio: 25000,
+		puertas: 2,
+		color: 'Rojo',
+		transmision: 'manual',
+		img: "resources/dodgeChallenger2020Rojo.png",
+		id: 11
+	},
+	{
+		marca: 'Mercedes Benz',
+		modelo: 'Clase C',
+		year: 2018,
+		precio: 45000,
+		puertas: 4,
+		color: 'Azul',
+		transmision: 'automatico',
+		img: "resources/mercedesCazul.png",
+		id: 12
+	},
+	{
+		marca: 'BMW',
+		modelo: 'Serie 5',
+		year: 2019,
+		precio: 90000,
+		puertas: 4,
+		color: 'Blanco',
+		transmision: 'automatico',
+		img: "resources/bmw5blanco2019.png",
+		id: 13
+	},
+	{ 
+        marca: 'Ford', 
+        modelo: 'Mustang', 
+        year: 2017, 
+        precio: 60000, 
+        puertas: 2, 
+        color: 'Negro', 
+        transmision: 'manual',
+		img: "resources/mustang2017Negro.png",
+		id: 14
+    },
+	{
+		marca: 'Dodge',
+		modelo: 'Challenger',
+		year: 2015,
+		precio: 35000,
+		puertas: 2,
+		color: 'Azul',
+		transmision: 'automatico',
+		img: "resources/dodgeChallengerAzul2015.png",
+		id: 15
+	},
+	{
+		marca: 'BMW',
+		modelo: 'Serie 3',
+		year: 2018,
+		precio: 50000,
+		puertas: 4,
+		color: 'Blanco',
+		transmision: 'automatico',
+		img: "resources/bmw3blanco2018.png",
+		id: 16
+	},
+	{
+		marca: 'BMW',
+		modelo: 'Serie 5',
+		year: 2017,
+		precio: 80000,
+		puertas: 4,
+		color: 'Negro',
+		transmision: 'automatico',
+		img: "resources/bmw5negro2017.png",
+		id: 17
+	},
+	{
+		marca: 'Mercedes Benz',
+		modelo: 'Clase C',
+		year: 2018,
+		precio: 40000,
+		puertas: 4,
+		color: 'Blanco',
+		transmision: 'automatico',
+		img: "resources/mercedesCblanco2018.png",
+		id: 18
+	},
+	{ 
+        marca: 'Audi', 
+        modelo: 'A4', 
+        year: 2016, 
+        precio: 30000, 
+        puertas: 4, 
+        color: 'Azul', 
+        transmision: 'automatico',
+		img: "resources/audia4azul2016.png",
+		id: 19
+    }
+];
